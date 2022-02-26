@@ -26,7 +26,7 @@ The quickstart installation method for Multus requires that you have first insta
 
 Clone this GitHub repository, we'll apply a daemonset which installs Multus using to `kubectl` from this repo. From the root directory of the clone, apply the daemonset YAML file:
 
-```
+```text
 cat ./deployments/multus-daemonset-thick-plugin.yml | kubectl apply -f -
 ```
 
